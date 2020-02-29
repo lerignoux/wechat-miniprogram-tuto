@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/map/map",
+    "pages/logs/logs",
+    "pages/fucks/fucks"
+  ],
+  "window": {
+    "backgroundColor": "#232323",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#232323",
+    "navigationBarTitleText": "WeCode",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

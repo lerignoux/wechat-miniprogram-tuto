@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> Your head </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+
+  <view class="userlogs">
+    <navigator url="./logs/logs">
+      <text>Logs</text>
+    </navigator>
+  </view>
+
+  <view class="usermap">
+    <navigator target="self" url="/pages/map/map" open-type="navigate">
+      <text>Map</text>
+    </navigator>
+  </view>
+      
+</view>

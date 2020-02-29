@@ -1,0 +1,17 @@
+/* pages/fucks/fucks.wxss */
+.quote_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 100%;
+}
+
+.quote {
+  display: block;
+  margin: auto;
+  color: rgb(234, 4, 255);
+  font-size: 1em;
+  text-align: center;
+}

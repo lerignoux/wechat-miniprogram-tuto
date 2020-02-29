@@ -1,0 +1,4 @@
+<!--pages/fucks/fucks.wxml-->
+<div class="quote_container">
+  <text class="quote" >{{insult}}</text>
+</div>
